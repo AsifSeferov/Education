@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/path2.png');
+    background-size: 100% 100%;
+    background-color: #000;
+    position: relative;
+}
+.header-menu{
+    margin-top: 40px;
+}
+.collapse{
+    justify-content: flex-end;
+}
+.navbar-brand span{
+    font-weight: 600;
+}
+.navbar-nav li{
+    padding-right: 25px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.navbar-nav li a{
+    color: #fff;
+}
+.header-section{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    text-align: center;
+    
+}
+.center-div{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+.header-button{
+    margin-top: 40px;
+}
+.header-button input{
+    padding: 7px 25px;
+    background-color: #299E50;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 20px;
+    font-family: 17px;
+}
+
+.header-button input:hover{
+    background-color: #fff;
+    color: #299E50;
+}
+.general-section{
+    display: flex;
+    flex-direction: row;
+}
+.first-section{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.picture-div img{
+    width: 100%;
+    
+}
+.blog-div{
+    width: 100%;
+    padding: 40px 60px 0 60px; 
+}
+
+.blog-div .first-icon, .second-icon, .third-icon{
+    margin-top: 40px;
+}
+
+.blog-div .first-icon{
+    background-image: url('../img/icon_1.png');
+    background-repeat: no-repeat; 
+    padding-bottom: 5px;
+}
+.blog-div .first-icon, .second-icon, .third-icon span{
+    padding-left: 60px;
+}
+.blog-div .second-icon{
+    background-image: url('../img/icon_2.png');
+    background-repeat: no-repeat;
+    padding-bottom: 5px; 
+}
+.blog-div .third-icon{
+    background-image: url('../img/icon_3.png');
+    background-repeat: no-repeat; 
+    padding-bottom: 5px;
+}
+
+@media(max-width:768px) {
+    .header{
+        background-image: none;
+    }
+    .navbar-brand span{
+        display: none;
+    }
+    .header-menu{
+        margin-top: 10px;
+    }
+    .center-div h1{
+        width: 60%;
+        margin: auto;
+        margin-bottom: 20px;
+        line-height: 2.5rem;
+    }
+    .center-div p{
+        width: 60%;
+        margin: auto;
+    }
+    .picture-div{
+        width: 60%;
+    }
+    .blog-div{
+        padding: 40px 20px 0 18px;
+    }
+    .blog-div span{
+        font-size: 20px;
+    } 
+   
+}

@@ -4,52 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Education.com</title>
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/fontawesom/css/all.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/fontawesom/css/all.css">
 </head>
 <body>
     <header class="header">
         <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <a href="#" class="navbar-brand text-white"><img src="./img/logo.png" alt="logo" width="30px"> Education </a>
-                <button type="button" class="navbar-toggler text-white" data-toggle="collapse" data-target="#NavbarContentID" aria-controls="NavbarContentID" aria-
-                aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
-
-                <div class="collapse navbar-collapse" id="NavbarContentID">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Courses</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Teachers</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Program</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-                    </ul>
+            <div class="container header-menu">
+                <a class="navbar-brand text-white" href="#"><img src="./assets/img/logo.png" alt="logo" width="30"><span> EDUCATION </span></a>
+                <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="fas fa-bars"></i>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#serviceDiv">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricingDiv">Courses</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#newsletterid">Teachers</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contactid">Programs</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contactid">Contanct</a>
+                      </li>
+                  </ul>
                 </div>
             </div>
-        </nav>
-        <section class="header-section">
-            <div class="div-center">
-                <h1> Knowledge is power </h1>
-                <p> Any succesfull career starts with good education  </p>
-            </div>
-        </section>
-        <div class="header-button">
-            <div class="button-center">
-                <a href="#"><input type="button" value="Learn more"></a>
+          </nav>
+          <div class="header-section">
+              <div class="center-div">
+                  <h1>Knowledge is power</h1>
+                  <p>Any succesfull career starts with good education</p>
+                  <div class="header-button">
+                      <input type="button" value="Learn more">
+                  </div>
+              </div>
+          </div>
+    </header>
+    <section class="first-section">
+        <div class="container">
+            <div class="row general-section">
+                <div class="col-lg-6 col-md-6 col-12 picture-div">
+                    <img src="./assets/img/Rectangle 31.png" alt="image1">
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 blog-div">
+                        <h3> Education</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Etiam sit amet risus quis leo posuere vehicula et id nunc. 
+                            Vivamus pharetra mollis nisl, quis efficitur tellus placerat vel. 
+                        </p>
+                        <h3 class="first-icon"><span>Learn anything</span></h3>
+                        <h3 class="second-icon"><span> Talk to our instructors </span></h3>
+                        <h3 class="third-icon"><span> Speak with others </span></h3>
+                </div>
             </div>
         </div>
-    </header>
 
-        
-           
-                
-            
-        
 
-    
+    </section>
+
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>
