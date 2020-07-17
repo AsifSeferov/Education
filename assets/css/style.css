@@ -100,6 +100,38 @@
     background-repeat: no-repeat; 
     padding-bottom: 5px;
 }
+.second-section{
+    width: 100%;
+    height: auto;
+    background-color: #ECECEC;
+    text-align: center;
+    padding: 40px 0 60px 0;
+}
+.features-div{
+    width: 100%;
+    padding-top: 30px;
+    margin: auto;
+}
+.features-div .icon1 span{
+    width: 140px;
+    height:140px;
+    background-color: #fff;
+    display: inline-block;
+    text-align: center;
+    line-height: 140px;
+    border-radius: 50%;
+}
+ .features-div h3{
+    margin-top: 5px;
+}
+.features-div .icon1 p{
+    font-size: 16px;
+}
+
+
+
+
+
 
 @media(max-width:768px) {
     .header{
@@ -130,5 +162,14 @@
     .blog-div span{
         font-size: 20px;
     } 
+    .features-div .icon1{
+        padding-top: 40px;
+    }
+    .features-div .online-testing{
+        padding-top: 0;
+    }
+    .research-icon{
+        margin-top: -30px;
+    }
    
 }
