@@ -52,7 +52,7 @@
     outline: none;
     color: #fff;
     border-radius: 20px;
-    font-family: 17px;
+    font-size: 17px;
 }
 
 .header-button input:hover{
@@ -126,6 +126,51 @@
 }
 .features-div .icon1 p{
     font-size: 16px;
+}
+.third-section h1{
+    text-align: center;
+    padding: 40px 0 30px 0;
+}
+.third-section .card{
+    margin: auto;
+}
+.card{
+    background-color: #ECECEC;
+}
+
+.card-header{
+    border-bottom: 2px solid #B6B2B2;
+    margin-bottom: 15px;
+}
+.card-header p{
+    
+}
+.card-body{
+    text-align: center;
+}
+.card-body hr{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 1px solid #B6B2B2;
+}
+.card-body a{
+    display: block;
+    margin-top: 50px;
+    padding: 9px 0 9px 0; 
+    background-color: #299E50;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.card-body a:hover{
+    background-color: #fff;
+    color: #299E50;
+    border: 1px solid #299E50;
 }
 
 
