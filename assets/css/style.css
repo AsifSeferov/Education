@@ -142,8 +142,11 @@
     border-bottom: 2px solid #B6B2B2;
     margin-bottom: 15px;
 }
-.card-header p{
-    
+.third-section .p1{
+    text-align: center;
+    padding: 40px 0 10px 0;
+    font-size: 17px;
+    color: gray;
 }
 .card-body{
     text-align: center;
@@ -170,8 +173,95 @@
 .card-body a:hover{
     background-color: #fff;
     color: #299E50;
-    border: 1px solid #299E50;
 }
+.four-section{
+    width: 100%;
+    background-color: #ECECEC;
+    padding-bottom: 40px;
+}
+.four-section .row{
+    padding: 20px 0 20px 0;
+}
+
+.four-section h2{
+    text-align: center;
+    padding: 40px 0 20px 0;
+}
+.teacher1 span{
+    display: block;
+    margin-top: 15px;  
+}
+.teacher1 span h5{
+    color: #299E50;
+}
+.teacher1 img{
+   float: left;
+   padding: 0 20px 0 0;
+}
+.five-section{
+    padding-top: 50px;
+}
+.five-section .heading{
+    text-align: center;
+}
+.program-div{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+.activities-grid-item{
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    color: #fff;
+    
+}
+.program1{
+    background-image: url('../img/Rectangle\ 51.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #299E50;
+}
+.program2{
+    background-image: url('../img/Rectangle\ 52.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #299E50;
+}
+.program3{
+    background-image: url('../img/Rectangle\ 53.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #299E50;
+}
+.program4{
+    background-image: url('../img/Rectangle\ 54.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #299E50;
+}
+.program5{
+    background-image: url('../img/Rectangle\ 50.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #299E50;
+}
+.program6{
+    background-image: url('../img/Rectangle\ 56.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #299E50;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -218,3 +308,4 @@
     }
    
 }
+
