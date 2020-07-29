@@ -1,6 +1,20 @@
-var slSlider = $('#slider-area').bxSlider({
-    auto: true,
-    onSlideAfter: function(){
-      slSlider.startAuto();
-    }
-  });
+$('.owl-carousel').owlCarousel({
+  autoplay:true,
+  loop:true,
+  dots:false,
+  nav:true,
+  responsive:{
+      0:{
+        nav:false,
+        dots:true,
+          items:1
+      },
+      600:{
+          items:3
+      },
+      1000:{
+        dots:true,
+          items:4
+      }
+  }
+})
