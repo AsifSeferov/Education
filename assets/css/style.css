@@ -277,12 +277,10 @@
     margin-left: 50px;
 }
 .six-section .div-lorem{
-    padding: 0 20px 0 20px;
+    padding: 0 40px 0 40px;
     text-align: center; 
 }
-.div-lorem p{
-   
-}
+
 .heading-second{
     text-align: center;
     padding: 50px 0 30px 0;
@@ -313,6 +311,30 @@
 }
 .all-carousel .extra-div{
     text-align: center;
+}
+.all-carousel .extra-div h4{
+    padding-top: 40px;
+    padding-bottom:20px;
+}
+.read-div{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.read-div a{
+    padding: 15px 30px;
+    background-color: #299E50;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.read-div a:hover{
+    background-color: #fff;
+    color: #299E50;
+    border: 1px solid #299E50;
 }
 
 

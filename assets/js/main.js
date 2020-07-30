@@ -5,7 +5,7 @@ $('.owl-carousel').owlCarousel({
   nav:true,
   responsive:{
       0:{
-        nav:false,
+        
         dots:true,
           items:1
       },
