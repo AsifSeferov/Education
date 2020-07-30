@@ -304,6 +304,16 @@
     left: -20px;
     top: 50%;
 }
+.seven-section .all-carousel{
+    margin: 10px;
+}
+.seven-section .heading-blog{
+    text-align: center;
+    padding-bottom: 20px; 
+}
+.all-carousel .extra-div{
+    text-align: center;
+}
 
 
 @media only screen and (max-width:768px) {
