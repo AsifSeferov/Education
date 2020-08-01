@@ -27,6 +27,9 @@
 .navbar-nav li a{
     color: #fff;
 }
+.navbar-nav li a:hover{
+    color: #C3BDBD;
+}
 .header-section{
     width: 100%;
     height: auto;
@@ -302,23 +305,29 @@
     left: -20px;
     top: 50%;
 }
-.seven-section .all-carousel{
-    margin: 10px;
-}
 .seven-section .heading-blog{
     text-align: center;
-    padding-bottom: 20px; 
+    padding-bottom: 40px;
 }
-.all-carousel .extra-div{
+#second-carousel{
+  overflow: hidden;
+}
+.carousel-div{
+    padding: 0 10px;
+}
+#second-carousel img{
+    width: 100%;
+    height: 300px;
+}
+.heading-owl-carousel{
     text-align: center;
 }
-.all-carousel .extra-div h4{
-    padding-top: 40px;
-    padding-bottom:20px;
+.heading-owl-carousel h4, p{
+    padding-top: 20px;
 }
 .read-div{
+    padding: 20px 0 60px 0;
     text-align: center;
-    padding-bottom: 40px;
 }
 .read-div a{
     padding: 15px 30px;
@@ -332,10 +341,56 @@
     text-decoration: none;
 }
 .read-div a:hover{
-    background-color: #fff;
+    background: #fff;
     color: #299E50;
     border: 1px solid #299E50;
 }
+
+
+.eight-section{
+   background-image: url('../img/photo4.png');
+   background-repeat: no-repeat;
+   height: 250px;
+}
+.container-image .subscribe{
+    color: #fff;
+    text-align: center;
+    margin-top: 70px;
+}
+.div-input input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    margin-top: 80px;
+    
+    
+}
+.div-input a{
+    background-color: #299E50;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 70px;
+    display: block;
+    text-align: center;
+    width: 140px;
+}
+.div-input a:hover{
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+
+
+
 
 
 @media only screen and (max-width:768px) {
@@ -382,6 +437,26 @@
     .div-lorem{
         padding: 0 20px 0 20px;
     }
+    .container-image .subscribe{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .div-input{
+     text-align: center;
+    margin-top: -90px;
+    }
+    .div-input input{
+        width: 250px;
+    }
+
+    .div-input a{
+        margin: auto;
+        margin-top: 120px;
+        
+    }
+  
+    
+   
     
    
 }
