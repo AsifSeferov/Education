@@ -440,6 +440,39 @@ input[type="submit"]:hover{
 ::placeholder{
     color: #000; 
 }
+.fa-color{
+    color: #299E50;
+    padding: 15px 0;
+}
+.div-span{
+    padding-top: 20px;
+    float: left;
+    margin-right: 90px;
+}
+.div-span-end{
+    padding-top: 15px;
+}
+.paragraf-1, .paragraf-2{
+    margin-top: -40px;
+}
+.footer{
+    width: 100%;
+    background-color: #000;
+    padding: 30px 0;
+}
+.education{
+    font-weight: bold;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 20px;
+    vertical-align: -3px;
+}
+.div-link a{
+    color: #fff;
+    text-decoration: none;
+    padding-left: 25px;
+    font-weight: 600;
+}
 
 
 
@@ -497,7 +530,7 @@ input[type="submit"]:hover{
     }
     .div-input{
      text-align: center;
-    margin-top: -90px;
+     margin-top: -90px;
     }
     .div-input input{
         width: 250px;
@@ -506,12 +539,36 @@ input[type="submit"]:hover{
     .div-input a{
         margin: auto;
         margin-top: 120px;
-        
     }
-  
+    .div-span{
+        float: none;
+        margin-left: 20px;
+    }
+    .div-span-end{
+        margin-left: 20px;
+    }
+    .paragraf-2{
+        display: none;
+    }
+    .center-submit{
+        display: block;
+        margin: auto;
+    }
+    .blog-center{
+        text-align: center;
+    }
+    .div-link{
+        margin-top: 30px;
+    }
     
-   
+    .div-link a{
+        display: block;
+        text-align: center;
+        padding-bottom: 3px;
+        border-bottom: 1px solid #7C7A7A;
+        font-size: 18px;
+    }
     
-   
 }
+
 
